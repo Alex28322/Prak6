@@ -407,6 +407,7 @@ body {
     padding-top: 0px;
     position: sticky;
     top: 0;
+    transition: 0.5s;
   }
   .article {
     font-size: 32px;

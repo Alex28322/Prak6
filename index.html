@@ -17,9 +17,7 @@
     <div class="warapper">
         <header class="header">
             <div class="sidemenu">
-                <a href="#">
                     <button class="sidemenu__menue">MENU</button>
-                </a>
                 <a href="#" class="sidemenu__item-link">
                     <div class="sidemenu__item">ABOUT</div>
                  
@@ -48,8 +46,15 @@
             </a>
             </div>
             <script>
-               document.querySelector('.nav__menu-mob').addEventListener('click', function() {
-    document.querySelector('.sidemenu').style.transform = "translateX(0%)";
+              document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.nav__menu-mob').addEventListener('click', function() {
+        document.querySelector('.sidemenu').style.transform = 'translateX(0%)';
+        document.querySelector('.nav').style.display = 'none';
+    });
+    document.querySelector('.sidemenu__menue').addEventListener('click', function() {
+        document.querySelector('.sidemenu').style.transform = 'translateX(100%)';
+        document.querySelector('.nav').style.display = 'flex';
+    });
 });
             </script>
             <nav class="nav">

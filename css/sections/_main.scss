@@ -1,0 +1,429 @@
+.main {
+padding-top: 90px;
+background-color: #111111;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 1440px;
+margin: 0 auto;
+}
+.dreams {
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    flex-wrap: wrap;
+}
+.dreams__container {
+    width: 59%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 110px;
+}
+.dreams__london {
+    width: 100%;
+display: flex;
+justify-content: space-between;
+font-family: "Inter Tight",sans-serif;
+}
+.dreams__london-2006 {
+font-size: 12px;
+font-weight: 400;
+align-self: flex-end;
+}
+.dreams__london-text {
+    font-size: 14px;
+    font-weight: 300;
+    width: 56.5%;
+    color: #ffffff;
+}
+.dreams__article {
+    width: 709px;
+    margin-top: 20px;
+}
+.dreams__stars {
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+justify-content: space-between;
+font-family: "Inter Tight",sans-serif;
+}
+.stars {
+    width: 77px;
+   
+background: url("../img/star3.svg") center bottom no-repeat;
+}
+.stars-mob{
+    display: none;
+    width: 77px;
+    height: 28px;
+    background: url("../img/star3.svg") center bottom no-repeat;
+    }
+.dreams__stars-text {
+    font-size: 14px;
+    font-weight: 300;
+    width: 56.5%;
+    color: #ffffff;
+}
+.dreams__sphere-box {
+    background-color: #202020;
+    align-self: flex-end;
+    margin-right: 50px;
+    padding: 10px;
+    margin-bottom: 110px;
+}
+.dreams__sphere {
+    width: 216px;
+    height: 216px;
+    background: url("../img/sphere1.png") center no-repeat;
+    transform: rotate(64deg);
+}
+.dreams__sphere-text {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.dreams__boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.dreams__box1 {
+    flex: 1 0 40%;
+    background: url("../img/box1.png") center no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.dreams__box1:hover{
+    flex: 1 0 50%;
+}
+.dreams__box1-article {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 300;
+margin: 100px 0 40px 50px;
+}
+.dreams__box1-text {
+    width: 276px;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 0 45px 50px;
+}
+.dreams__box2 {
+    flex: 1 0 40%;
+    background: url("../img/box2.png") center no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.dreams__box2:hover{
+    flex: 1 0 50%;
+}
+.dreams__box3 {
+    flex: 1 0 40%;
+   
+    background: url("../img/box3.png") center no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.dreams__box3:hover{
+    flex: 1 0 50%;
+}
+.dreams__box4 {
+    flex: 1 0 40%;
+    background: url("../img/box4.png") center no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.dreams__box4:hover{
+    flex: 1 0 50%;
+}
+.objectives {
+    padding-top: 170px;
+    width:87.6%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 130px;
+}
+.objectives__article {
+width: 63%;
+margin-right: 30%;
+margin-bottom: 90px;
+}
+.objectives__london-mob{
+    display: none;
+    font-size: 14px;
+}
+.objectives__decor-box {
+width: 27%;
+}
+.objectives__london {
+font-size: 12px;
+margin-bottom: 500px;
+}
+.star {
+width: 29px;
+height: 29px;
+background: url("../img/star1.svg") center no-repeat;
+}
+.star-mob{
+    display: none;
+width: 29px;
+height: 29px;
+background: url("../img/star1.svg") center no-repeat;
+margin-top: 65px;
+margin-bottom: 25px;
+}
+.objectives__content-box {
+width: 73%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.objectives__content-text {
+font-size: 14px;
+color: #ffffff;
+width: 43%;
+margin-bottom: 60px;
+}
+.objectives__tabule{
+    display: grid;
+    grid-template-rows: 39% 61%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.objectives__sphere-box1 {
+border: 2px #ffffff solid;
+}
+.objectives__sphere-box2 {
+    border: 2px #ffffff solid;
+    }
+    .objectives__sphere-box3 {
+        border: 2px #ffffff solid;
+        }
+.objectives__sphere-1 {
+    margin: 40px 50px 50px;
+width: 48px;
+height: 48px;
+background: url("../img/sphere4.png") center no-repeat;
+background-size: cover;
+}
+.objectives__sphere-2 {
+    margin: 40px 50px 50px;
+    width: 88px;
+    height: 48px;
+    background: url("../img/sphere2.png") center no-repeat;
+    background-size: cover;
+}
+.objectives__sphere-3 {
+    margin: 40px 50px 50px;
+    width: 137px;
+    height: 48px;
+    background: url("../img/sphere3.png") center no-repeat;
+    background-size: cover;
+}
+.objectives__box1 {
+    border: 2px #ffffff solid;
+    margin-bottom: 30px;
+}
+.objectives__box2 {
+    border: 2px #ffffff solid;
+    margin-bottom: 30px;
+}
+.objectives__box3 {
+    border: 2px #ffffff solid;
+    margin-bottom: 30px;
+}
+.objectives__box-article {
+font-size: 30px;
+padding: 35px 50px 20px;
+font-weight: 300;
+}
+.objectives__box-text {
+font-size: 14px;
+padding: 0 50px 45px;
+color: #E4E4E4;
+margin-top: 0px;
+}
+.expertise {
+width: 100%;
+background: url("../img/bottom-back.png") center top no-repeat;
+background-size: cover;
+display: flex;
+}
+.expertise__article {
+margin-top: 400px;
+margin-left: 7%;
+margin-bottom: 65px;
+width: 49%;
+}
+.expertise-text {
+margin-left: 7%;
+width: 24%;
+margin-bottom: 65px;
+align-content: end;
+}
+@media(max-width:1100px){
+    .objectives__tabule{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .objectives__sphere-box1{
+        order: 1;
+        width: 100%;
+    }
+    .objectives__box1{
+        order: 2;
+        width: 100%;
+    }
+    .objectives__sphere-box2{
+        order: 3;
+        width: 100%;
+    }
+    .objectives__box2{
+        order: 4;
+        width: 100%;
+    }
+    .objectives__sphere-box3{
+        order: 5;
+        width: 100%;
+    }
+    .objectives__box3{
+        order: 6;
+        width: 100%;
+    }
+    .objectives__box1{
+        margin-bottom: 0;
+    }
+    .objectives__box2{
+        margin-bottom: 0;
+    }
+    .objectives__box3{
+        margin-bottom: 0;
+    }
+    .objectives__sphere-1{
+        margin: 21px 50px;
+    }
+    .objectives__sphere-2{
+        margin: 21px 50px;
+    }
+    .objectives__sphere-3{
+        margin: 21px 50px;
+    }
+}
+@media(max-width:780px){
+    .stars-mob{
+        display: block;
+    }
+    .dreams{
+        width: 90%;
+    }
+    .dreams__london-2006{
+        margin-top: 60px;
+        order: 1;
+    }
+    .dreams__container{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .dreams__london-text{
+        width: 90%;
+    }
+    .dreams__london{
+        flex-wrap: wrap;
+    }
+    .stars{
+        display: none;
+    }
+    .dreams__stars-text{
+        width: 100%;
+    }
+    .dreams__sphere-box{
+        display: none;
+    }
+    .objectives{
+        width: 90%;
+        padding-bottom: 85px;
+    }
+    .objectives__london-mob{
+        display: block;
+    }
+    .objectives__article{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 70px;
+    }
+    .objectives__decor-box{
+        display: none;
+    }
+    .star-mob{
+        display: block;
+
+    }
+    .objectives__content-box{
+        width: 100%;
+    }
+    .objectives__content-text{
+        width: 100%;
+    }
+    .objectives__content-text{
+        width: 100%;
+    }
+    .objectives__tabule{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .objectives__sphere-box1{
+        order: 1;
+        width: 100%;
+    }
+    .objectives__box1{
+        order: 2;
+        width: 100%;
+    }
+    .objectives__sphere-box2{
+        order: 3;
+        width: 100%;
+    }
+    .objectives__box2{
+        order: 4;
+        width: 100%;
+    }
+    .objectives__sphere-box3{
+        order: 5;
+        width: 100%;
+    }
+    .objectives__box3{
+        order: 6;
+        width: 100%;
+    }
+    .objectives__box1{
+        margin-bottom: 0;
+    }
+    .objectives__box2{
+        margin-bottom: 0;
+    }
+    .objectives__box3{
+        margin-bottom: 0;
+    }
+    .objectives__sphere-1{
+        margin: 21px 50px;
+    }
+    .objectives__sphere-2{
+        margin: 21px 50px;
+    }
+    .objectives__sphere-3{
+        margin: 21px 50px;
+    }
+    .expertise{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .expertise__article{
+        margin: 150px auto 60px;
+        width: 90%;
+    }
+    .expertise-text{
+        width: 90%;
+        margin: 0 auto 60px;
+    }
+}

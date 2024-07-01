@@ -1,0 +1,150 @@
+.footer {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+margin: 0 auto;
+padding-top: 95px;
+}
+.footer__stars {
+    margin-left: 6.3%;
+    margin-right: 18%;
+    width: 77px;
+    height: 28px;
+background: url("../img/star3.svg") center no-repeat;
+background-size: cover;
+}
+.footer__text {
+font-size: 14px;
+color: #E4E4E4;
+width: 29%;
+margin-right: 3%;
+}
+.footer__nav {
+    width: 87%;
+    max-width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 170px;
+  padding-bottom: 50px;
+}
+.logo__footer {
+    width: 152px;
+    background: url("../img/logo-grad.svg") center no-repeat;
+    background-size: contain;
+    height: 34px;
+}
+.footer__logo-servise{
+    width: 34%;
+    max-width: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #ffffff 2px solid;
+}
+.servise-mob {
+    width: 31%;
+    font-family: "Unbounded" ,sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.grad-text {
+
+}
+.footer__menu {
+    width: 66%;
+    max-width: 820px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about {
+}
+.servises {
+}
+.cases {
+}
+.team {
+}
+.globus__footer {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 3%;
+    box-sizing: border-box;
+background: url("../img/globus-grad.svg") center no-repeat;
+border: #ffffff 2px solid;
+transition: 0.3s;
+}
+.globus__footer:hover{
+    flex-basis: 8%;
+}
+.boost {
+}
+.products {
+}
+.book {
+}
+.blog {
+}
+.nav {
+  
+}
+.nav__privat-mob{
+    display: none;
+}
+.nav__footer-menu-mob{
+    display: none;
+}
+@media(max-width:1440px){
+    .footer__logo-servise{
+        width: 100%;
+        max-width: none;
+    }
+    .footer__menu{
+        width: 100%;
+        max-width: none;
+    }
+    }
+@media(max-width:780px){
+    .footer{
+        padding-top: 60px;
+        width: 90%;
+    }
+    .footer__stars {
+        margin-right: 60%;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .footer__text{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .footer__nav{
+        padding-top: 75px;
+        width: 100%;
+    }
+    .footer__menu{
+        display: none;
+    } 
+    .footer__logo-servise{
+        width: 100%;
+    }
+    .logo-servise-mob{
+        width: 100%;
+    }
+    .servise-mob{
+        font-size: 6px;
+    }
+    .nav__footer-menu-mob{
+        padding: 23px 0;
+        font-weight: 400;
+        width: 33%;
+        border: #ffffff 2px solid;
+    }
+    .nav__privat-mob{
+        width: 67%;
+        font-weight: 400;
+        border: #ffffff 2px solid;
+    }
+}

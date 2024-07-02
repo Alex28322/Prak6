@@ -15,45 +15,55 @@
 </head>
 <body>
     <div class="warapper">
+        <button class="off__button"></button>
+        <div class="sidemenu">
+            <button class="sidemenu__menue">MENU</button>
+        <a href="#" class="sidemenu__item-link">
+            <div class="sidemenu__item">ABOUT</div>
+         
+        </a>
+        <a href="#" class="sidemenu__item-link">
+        <div class="sidemenu__item">SERVISES</div>
+    </a>
+        
+    <a href="#" class="sidemenu__item-link">
+        <div class="sidemenu__item">CASES</div>
+    </a>
+        <a href="#" class="sidemenu__item-link">
+            <div class="sidemenu__item">TEAM</div>
+        </a>
+       <a href="#" class="sidemenu__item-link">
+        <div class="sidemenu__item">BOOST PROGRAM</div>
+       </a>
+       <a href="#" class="sidemenu__item-link">
+        <div class="sidemenu__item">PRODUCTS</div>
+    </a>
+    <a href="#" class="sidemenu__item-link">
+        <div class="sidemenu__item">BOOK</div>
+    </a>
+    <a href="#" class="sidemenu__item-link">
+        <div class="sidemenu__item">BLOG</div>
+    </a>
+    </div>
         <header class="header">
-            <div class="sidemenu">
-                    <button class="sidemenu__menue">MENU</button>
-                <a href="#" class="sidemenu__item-link">
-                    <div class="sidemenu__item">ABOUT</div>
-                 
-                </a>
-                <a href="#" class="sidemenu__item-link">
-                <div class="sidemenu__item">SERVISES</div>
-            </a>
-                
-            <a href="#" class="sidemenu__item-link">
-                <div class="sidemenu__item">CASES</div>
-            </a>
-                <a href="#" class="sidemenu__item-link">
-                    <div class="sidemenu__item">TEAM</div>
-                </a>
-               <a href="#" class="sidemenu__item-link">
-                <div class="sidemenu__item">BOOST PROGRAM</div>
-               </a>
-               <a href="#" class="sidemenu__item-link">
-                <div class="sidemenu__item">PRODUCTS</div>
-            </a>
-            <a href="#" class="sidemenu__item-link">
-                <div class="sidemenu__item">BOOK</div>
-            </a>
-            <a href="#" class="sidemenu__item-link">
-                <div class="sidemenu__item">BLOG</div>
-            </a>
-            </div>
+ 
             <script>
               document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.nav__menu-mob').addEventListener('click', function() {
         document.querySelector('.sidemenu').style.transform = 'translateX(0%)';
         document.querySelector('.nav').style.display = 'none';
+        document.querySelector('.off__button').style.display = 'inline-block';
+        document.querySelector('.off__button').style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
     });
     document.querySelector('.sidemenu__menue').addEventListener('click', function() {
         document.querySelector('.sidemenu').style.transform = 'translateX(100%)';
         document.querySelector('.nav').style.display = 'flex';
+        document.querySelector('.off__button').style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    });
+    document.querySelector('.off__button').addEventListener('click', function() {
+        document.querySelector('.sidemenu').style.transform = 'translateX(100%)';
+        document.querySelector('.nav').style.display = 'flex';
+        document.querySelector('.off__button').style.backgroundColor = 'rgba(0, 0, 0, 0)';
     });
 });
             </script>

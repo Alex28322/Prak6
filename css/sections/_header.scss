@@ -6,6 +6,9 @@ body{
 }
 .header__back{
 }
+.off__button{
+    display: none;
+}
 .header {
     max-width: 1440px;
     width: 100%;
@@ -324,14 +327,24 @@ width: 17%;
         background-size: cover;
         padding-top: 20px;
     }
+    .off__button{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255, 0);
+        transition: background-color 0.5s ease;
+        top: 0;
+        left: 0;
+        border: transparent;
+    }
     .sidemenu{
         position: fixed;
         right: 0;
         top: 0;
         display: flex;
         width: 80%;
-        height: 90vh;
-        background: rgba(0, 0, 0, 0.9);
+        height: 95vh;
+        background-color: rgba(0, 0, 0, 0.9);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -352,6 +365,7 @@ border: transparent;
     }
     .sidemenu__item-link{
         width: 80%;
+        text-decoration: none;
     }
     .sidemenu__item{
         color: #ffffff;
